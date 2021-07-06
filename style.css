@@ -1,3 +1,175 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+#diet{
+    display:flex;
+    margin-bottom: 150px;
+}
+.half-width{
+width:50%
+}
+.half-width h1{
+    line-height: 66px;
+    font-size:50px ;
+    font-weight: bold;
+    margin-top: 74px;
+    margin-left: 20px;
+}
+span{
+    color:rgb(216, 22, 86);
+}
+.half-width p{
+    text-align: left;
+   margin-left: 30px;
+    margin-bottom: 40px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+}
+.link-button{
+    text-decoration: none;
+    margin-left: 20px;
+    background-image: linear-gradient(rgb(231, 54, 113),pink);
+    color:white;
+    padding: 15px 32px;
+    border-radius: 30px;
+    
+
+    
+}
+.female1{
+    width:500px;
+}
+.female2{
+    width: 343px;
+    margin-left: 134px;
+}
+#about-us{
+    padding-top: 50px;
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/Frame59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.full-width{
+    margin: 0 auto;
+}
+.full-width h1 ,p{
+    text-align: center;
+}
+.full-width h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: gray;
+}
+#recipie-blog{
+    display: flex;
+   margin-left: 100px;
+   margin-top: 100px;
+   margin-bottom: 150px;
+}
+.recipie1{
+    width:25%;
+   padding: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid #BFBFBF;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+.recipie1 img{
+    width:300px;
+    margin-left: 3px;
+    
+    }
+.recipie2{
+    width:25%;
+    padding: 20px;
+    margin-left: 40px;
+    background-color: white;
+    color: black;
+    border: 1px solid #BFBFBF;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+.recipie2 img{
+    width:300px;
+    margin-left: 3px;
+    
+    }
+   
+.recipie3{
+    width:25%;
+    padding: 20px;
+    margin-left: 40px;
+    background-color: white;
+    color: black;
+    border: 1px solid #BFBFBF;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+.recipie3 img{
+    width:300px;
+    margin-left: 3px;
+    
+    }
+#follow-us{
+        display: flex;
+        border-radius: 20px;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        border: 1px solid #BFBFBF;
+        margin-bottom: 150px;
+    }
+   
+.youtube-section{
+width: 30%;
+margin-left: 200px;
+    }
+    .youtube-section h1{
+        font-size: 60px;
+        font-weight: bold;
+    }
+.instagram-section{
+    width: 30%;
+}
+.instagram-section h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.dibbble-section{
+    width: 30%;
+}
+.dibbble-section h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+Footer{
+    padding: 20px;
+}
+Footer h1{
+    margin-left: 112px;;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 70px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 33px;
+}
+.blog{
+    color: gray;
+}
+Footer{
+    height: 200px;
+    background-color: black;
+}
