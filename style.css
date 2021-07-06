@@ -229,6 +229,8 @@ margin-left: 200px;
 }
 Footer{
     padding: 20px;
+    height: 200px;
+    background-color: black;
 }
 Footer h1{
     margin-left: 112px;;
@@ -245,7 +247,4 @@ footer p{
 .blog{
     color: gray;
 }
-Footer{
-    height: 200px;
-    background-color: black;
-}
+
