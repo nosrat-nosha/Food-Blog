@@ -1,13 +1,61 @@
 body{
     font-family: 'Raleway', sans-serif;
+    margin-top:0px ;
 }
+#header{
+    background-color: rgba(228, 63, 200, 0.884);
+    box-shadow: 0px 2px 10px 1px #aaaaaa;;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+
+.header-logo{
+    width: 60%;
+}
+
+.header-logo h1{
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    background: pink;
+    width: 90px;
+    margin-left: 10px;
+    padding: 11px;
+    border-radius: 18px;
+}
+
+.header-list{
+    width: 40%;
+}
+
+.header-list li{
+    list-style-type: none;
+}
+
+.header-list li ul{
+    margin-top: 25px;
+}
+
+.header-list li ul a{
+    text-decoration: none;
+   
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+ 
+}
+
 #diet{
     display:flex;
     margin-bottom: 150px;
 }
+
 .half-width{
 width:50%
 }
+
 .half-width h1{
     line-height: 66px;
     font-size:50px ;
@@ -15,9 +63,11 @@ width:50%
     margin-top: 74px;
     margin-left: 20px;
 }
+
 span{
     color:rgb(216, 22, 86);
 }
+
 .half-width p{
     text-align: left;
    margin-left: 30px;
@@ -27,6 +77,7 @@ span{
     font-weight: bold;
     color: gray;
 }
+
 .link-button{
     text-decoration: none;
     margin-left: 20px;
@@ -34,17 +85,18 @@ span{
     color:white;
     padding: 15px 32px;
     border-radius: 30px;
-    
-
-    
+   
 }
+
 .female1{
     width:500px;
 }
+
 .female2{
     width: 343px;
     margin-left: 134px;
 }
+
 #about-us{
     padding-top: 50px;
     display: flex;
@@ -58,35 +110,44 @@ span{
 .full-width{
     margin: 0 auto;
 }
+
 .full-width h1 ,p{
     text-align: center;
 }
+
 .full-width h1{
     font-size: 50px;
     font-weight: bold;
     color: gray;
 }
+
 #recipie-blog{
     display: flex;
    margin-left: 100px;
    margin-top: 100px;
    margin-bottom: 150px;
 }
+
 .recipie1{
     width:25%;
-   padding: 20px;
+    padding: 20px;
     background-color: white;
     color: black;
     border: 1px solid #BFBFBF;
     border-radius: 20px;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 1px 4px 18px  #aaaaaa;
 
+}
+.recipie1 p{
+    text-align: justify;
+    line-height: 30px;
 }
 .recipie1 img{
     width:300px;
     margin-left: 3px;
     
     }
+
 .recipie2{
     width:25%;
     padding: 20px;
@@ -95,14 +156,20 @@ span{
     color: black;
     border: 1px solid #BFBFBF;
     border-radius: 20px;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 1px 4px 18px  #aaaaaa;
 
 }
+
 .recipie2 img{
     width:300px;
     margin-left: 3px;
     
     }
+    
+.recipie2 p{
+        text-align: justify;
+        line-height: 30px;
+    }    
    
 .recipie3{
     width:25%;
@@ -112,7 +179,7 @@ span{
     color: black;
     border: 1px solid #BFBFBF;
     border-radius: 20px;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 1px 4px 18px  #aaaaaa;
 
 }
 .recipie3 img{
@@ -120,10 +187,14 @@ span{
     margin-left: 3px;
     
     }
+.recipie3 p{
+        text-align: justify;
+        line-height: 30px;
+    }    
 #follow-us{
         display: flex;
         border-radius: 20px;
-        box-shadow: 10px 10px 5px #aaaaaa;
+        box-shadow: 1px 4px 18px  #aaaaaa;
         border: 1px solid #BFBFBF;
         margin-bottom: 150px;
     }
